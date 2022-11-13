@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{96413C47-BF33-473B-906E-673E71988F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange", "Basic\DirectExchange\DirectExchange.csproj", "{6D3D835F-1792-48C9-BD53-3B5E5091B74B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange", "Basic\DirectExchange\DirectExchange.csproj", "{6D3D835F-1792-48C9-BD53-3B5E5091B74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange", "Basic\TopicExchange\TopicExchange.csproj", "{CF312E20-CD95-486B-BEEF-87B19C3DAD8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{6D3D835F-1792-48C9-BD53-3B5E5091B74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3D835F-1792-48C9-BD53-3B5E5091B74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3D835F-1792-48C9-BD53-3B5E5091B74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF312E20-CD95-486B-BEEF-87B19C3DAD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF312E20-CD95-486B-BEEF-87B19C3DAD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF312E20-CD95-486B-BEEF-87B19C3DAD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF312E20-CD95-486B-BEEF-87B19C3DAD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D3D835F-1792-48C9-BD53-3B5E5091B74B} = {96413C47-BF33-473B-906E-673E71988F64}
+		{CF312E20-CD95-486B-BEEF-87B19C3DAD8F} = {96413C47-BF33-473B-906E-673E71988F64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1D217E0-A5FA-4004-BB16-4FA0D3B3CD74}
