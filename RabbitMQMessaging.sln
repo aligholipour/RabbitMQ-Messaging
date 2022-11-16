@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicExchange", "Basic\Topi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutExchange", "Basic\FanoutExchange\FanoutExchange.csproj", "{6F33B14A-8E96-4143-B675-B01204E65D56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadersExchange", "Basic\HeadersExchange\HeadersExchange.csproj", "{50CF4E6D-4CDA-4485-ADAD-630999BDF80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadersExchange", "Basic\HeadersExchange\HeadersExchange.csproj", "{50CF4E6D-4CDA-4485-ADAD-630999BDF80E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PubSubPattern", "PubSubPattern", "{773DCD97-A24E-4F64-9451-28D767CCEE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
